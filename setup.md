@@ -8,19 +8,19 @@ This script requires `bc` for floating-point calculations.
     sudo apt update
     sudo apt install bc -y
 
-▶ Step 2: Give Execute Permission
+## ▶ Step 2: Give Execute Permission
 Make the script executable:
     chmod +x monitor.sh
 
-▶ Step 3: Run Script Manually
+## ▶ Step 3: Run Script Manually
 Execute the script:
     ./monitor.sh
 
-📄 Step 4: Check Log Output
+## 📄 Step 4: Check Log Output
 View system health logs:
     cat system.log
 
-⏰ Step 5: Automate Using Cron Job
+## ⏰ Step 5: Automate Using Cron Job
 Open crontab editor:
     crontab -e
 
